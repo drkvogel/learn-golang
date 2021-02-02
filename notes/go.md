@@ -516,3 +516,4 @@ for (var i = 0; i < 5; i++) {
         alert(ops[i](i));
 }
 ```
+
