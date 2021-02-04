@@ -1,4 +1,7 @@
 
+[RepRage – Using Golang to connect Raspberry PIs and Arduinos over serial ](https://reprage.com/post/using-golang-to-connect-raspberrypi-and-arduino)
+  use golang on raspi for s2w
+    aws
 
 [Install Go in Mac - asciinema ](https://asciinema.org/a/138113)
 [About - asciinema ](https://asciinema.org/about)
@@ -8,6 +11,12 @@
 [spf13/cobra: A Commander for modern Go CLI interactions ](https://github.com/spf13/cobra/)
 [spf13/viper: Go configuration with fangs ](https://github.com/spf13/viper)
 [hashicorp/hcl: HCL is the HashiCorp configuration language. ](https://github.com/hashicorp/hcl)
+
+[Golang In London - A Starter's Guide to Go Projects](https://www.youtube.com/watch?v=28cyRBy1U7U&feature=youtu.be)
+[A Starters' Guide To Structuring Go Projects by Artur Kondas ](https://akondas.com/talks/starters-guide-go/#/)
+
+
+[Golang is not Ready for Enterprise Systems yet and Here’s Why  by Dmitry Afonkin  Sep, 2020  Medium ](https://medium.com/@afondmitro/golang-is-not-ready-for-enterprise-systems-yet-and-heres-why-c0ee72069963)
 
 
 [What Are RPCs in Golang?. An overview of remote procedure calls…  by Kingsley Tan  Better Programming  Medium ](https://medium.com/better-programming/rpc-in-golang-19661033942)
