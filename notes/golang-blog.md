@@ -1,4 +1,16 @@
 
+
+[Go (programming language)](https://www.google.com/search?rlz=1C5CHFA_enGB838GB838&q=Go+programming+language)
+
+[Download and install - The Go Programming Language ](https://golang.org/doc/install)
+
+[avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software ](https://github.com/avelino/awesome-go#server-applications)
+[Go: the Good, the Bad and the Ugly ](https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/#the-bad)
+[rust vs go](https://www.google.com/search?q=rust+vs+go)
+[The success of Go heralds that of Rust – George Hosu – Medium ](https://medium.com/@george3d6/the-success-of-go-heralds-that-of-rust-73cb2e4c0500)
+[Life: A secure, blazing-fast, cross-platform WebAssembly VM in Go. ](https://medium.com/perlin-network/life-a-secure-blazing-fast-cross-platform-webassembly-vm-in-go-ea3b31fa6e09)
+
+
 [RepRage – Using Golang to connect Raspberry PIs and Arduinos over serial ](https://reprage.com/post/using-golang-to-connect-raspberrypi-and-arduino)
   use golang on raspi for s2w
     aws
