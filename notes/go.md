@@ -1,21 +1,27 @@
 Thu Feb 15 04:56:23 2018
 gofmt
-
-	$ go tool tour
-
+```
+$ go tool tour
+```
 or
-
-	$ go get golang.org/x/tour/gotour
-	$ gotour
-
+```
+$ go get golang.org/x/tour/gotour
+$ gotour
+```
 ```go
+package main
+import "fmt"
+
+func main() {
 	fmt.Println()
-	time.Now()
+	// time.Now()
+}
 ```
 
-A return statement without arguments returns the named return values. This is known as a "naked" return.
+A return statement without arguments returns the named return values.
+This is known as a "naked" return.
 
-var e.g. 
+`var` e.g. 
 
 ```go
 var i int
@@ -516,4 +522,3 @@ for (var i = 0; i < 5; i++) {
         alert(ops[i](i));
 }
 ```
-
