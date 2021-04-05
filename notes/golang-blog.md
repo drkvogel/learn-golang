@@ -148,3 +148,7 @@ Window (crashed Tue Feb 16 2021)
 [Retool  Build internal tools, remarkably fast. ](https://retool.com/?utm_medium=podcast)
 [Algorithms with Go ](https://algorithmswithgo.com/?referer=gotime)
 [https://go-store.io ](https://go-store.io/) (offline)
+
+
+`go get -u github.com/boyter/scc`
+>Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go 
