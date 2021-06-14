@@ -78,4 +78,9 @@ $ go build
 ```
 >This won't produce an output file. Instead it saves the compiled package in the local build cache.
 
+```
+2021-06-14 23:48:49 kvogel-surface:~/projects/general/dev/learn/learn-golang/tutorials/first/hello ±(master) ✗
+❯ go run example.com/user/hello
+.dlrow ,olleH
+```
 
