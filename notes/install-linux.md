@@ -1,4 +1,6 @@
 
+[Download and install - The Go Programming Language ](https://golang.org/doc/install)
+
 
 Install with asdf:
 ```
@@ -116,3 +118,11 @@ For more information, see: https://github.com/junegunn/fzf
 # works
 ❯ code ~/.fzf/shell/key-bindings.zsh 
 ```
+
+
+[Install Go in Mac - asciinema ](https://asciinema.org/a/138113)
+[How to: Install Go 1.11.2 on Ubuntu  by Patrick Dahlke  Medium ](https://medium.com/@patdhlk/how-to-install-go-1-9-1-on-ubuntu-16-04-ee64c073cd79)
+[About - asciinema ](https://asciinema.org/about)
+
+[Shell script to download and install latest golang · GitHub ](https://gist.github.com/Zate/b3c8e18cbb2bbac2976d79525d95f893)
+

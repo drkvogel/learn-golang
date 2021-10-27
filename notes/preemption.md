@@ -2,7 +2,7 @@
 The Go Playground (https://play.golang.org/p/KvN8W_Tupqg)
 
 
-[non-cooperative preemption golang](https://www.google.com/search?q=non-cooperative+preemption+golang&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BggAEBYQHjoFCCEQoAFQjy5YxDpggz1oAXACeACAAYkBiAHBBZIBAzYuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&uact=5)
+[non-cooperative preemption golang](https://www.google.com/search?q=non-cooperative+preemption+golang)
 [proposal/24543-non-cooperative-preemption.md at master · golang/proposal ](https://github.com/golang/proposal/blob/master/design/24543-non-cooperative-preemption.md)
 [Go: Goroutine and Preemption. ℹ️ This article is based on Go 1.13.  by Vincent Blanchon  A Journey With Go  Medium ](https://medium.com/a-journey-with-go/go-goroutine-and-preemption-d6bc2aa2f4b7)
 [Go: Asynchronous Preemption. ℹ️ This article is based on Go 1.14.  by Vincent Blanchon  A Journey With Go  Medium ](https://medium.com/a-journey-with-go/go-asynchronous-preemption-b5194227371c)

@@ -17,6 +17,9 @@ go version go1.13.8 linux/amd64
 
 [Understanding the GOPATH  DigitalOcean ](https://www.digitalocean.com/community/tutorials/understanding-the-gopath)
 
+[gp - The GOPATH Manager : golang ](https://www.reddit.com/r/golang/comments/691fyl/gp_the_gopath_manager/)
+
+
 ### GOROOT
 
 >`$GOPATH` Is Not `$GOROOT`. The `$GOROOT` is where Go’s code, compiler, and tooling lives — this is not our source code. The `$GOROOT` is usually something like `/usr/local/go`. Our `$GOPATH` is usually something like `$HOME/go`.
@@ -172,15 +175,3 @@ Hello, World!
 nil
 ```
 
-
-
-
-
-fp repo?
-
-### Currying
-
-[functional programming - What is 'Currying'?](https://stackoverflow.com/questions/36314/what-is-currying)
->Now the obvious follow up question is why on earth would you ever want to do that? It turns what was an eager operation `x + y` into one that can be stepped through lazily, meaning we can do at least *two things*:
->1. *cache* expensive operations
->2. achieve *abstractions* in the functional paradigm.
