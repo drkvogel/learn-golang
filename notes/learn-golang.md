@@ -50,3 +50,59 @@ All tools successfully installed. You are ready to Go. :)
 [Node.js: In Go We Trust  Dev Genius ](https://blog.devgenius.io/node-js-in-go-we-trust-7da6395776f2)
 
 [5 Golang Modules/Packages That Every Developer Should Know  by Bryan Dijkhuizen  Golangd  Medium ](https://medium.com/golangd/5-golang-modules-packages-that-every-developer-should-know-c945f40ea173)
+
+```
+2022-01-31 03:41:41 kvogel@kvogel-surface-ubuntu:~/Downloads 
+❯ asdf plugin list all | grep go
+argo                          https://github.com/sudermanjr/asdf-argo.git
+argocd                        https://github.com/beardix/asdf-argocd.git
+argo-rollouts                 https://github.com/abatilo/asdf-argo-rollouts.git
+ginkgo                        https://github.com/jimmidyson/asdf-ginkgo.git
+go-containerregistry          https://github.com/dex4er/asdf-go-containerregistry.git
+go-getter                     https://github.com/ryodocx/asdf-go-getter.git
+gohugo                        https://github.com/nklmilojevic/asdf-hugo.git
+go-jira                       https://github.com/dguihal/asdf-go-jira.git
+gojq                          https://github.com/jimmidyson/asdf-gojq.git
+go-jsonnet                    https://gitlab.com/craigfurman/asdf-go-jsonnet.git
+golang                        https://github.com/kennyp/asdf-golang.git
+golangci-lint                 https://github.com/hypnoglow/asdf-golangci-lint.git
+gomigrate                     https://github.com/joschi/asdf-gomigrate.git
+gomplate                      https://github.com/sneakybeaky/asdf-gomplate.git
+gopass                        https://github.com/trallnag/asdf-gopass.git
+goreleaser                    https://github.com/kforsthoevel/asdf-goreleaser.git
+go-sdk                        https://github.com/yacchi/asdf-go-sdk.git
+goss                          https://github.com/raimon49/asdf-goss.git
+httpie-go                     https://github.com/abatilo/asdf-httpie-go.git
+hugo                          https://github.com/NeoHsu/asdf-hugo.git
+mongodb                       https://github.com/sylph01/asdf-mongodb.git
+mongosh                       https://github.com/itspngu/asdf-mongosh.git
+mongo-tools                   https://github.com/itspngu/asdf-mongo-tools.git
+richgo                        https://github.com/paxosglobal/asdf-richgo.git
+solidity                      https://github.com/diegodorado/asdf-solidity.git
+spago                         https://github.com/nsaunders/asdf-spago.git
+```
+
+### GOPATH, GOROOT in zsh with oh-my-zsh and Go installed via asdf
+
+>ensure the below are in your shell's rc file.
+```
+source /usr/local/opt/asdf/asdf.sh
+
+export GOPATH=$(go env GOPATH)
+export PATH="$PATH:$(go env GOPATH)/bin"
+```
+don't have `/usr/local/opt/asdf/asdf.sh` bc asdf is running as an oh-my-zsh plugin, but as long as `go env` goes after asdf is run, should be OK:
+`~/.zshrc`:
+```diff
+ plugins=(
+     git
+     asdf
+     # zsh-z 
+     # zsh-syntax-highlighting
+ )
+ source $ZSH/oh-my-zsh.sh
+
+ ...
++export GOPATH=$(go env GOPATH)
++export PATH="$PATH:$(go env GOPATH)/bin"
+```

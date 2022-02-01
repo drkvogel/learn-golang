@@ -175,3 +175,54 @@ Hello, World!
 nil
 ```
 
+2022-01-31 05:50 Mon / 11:20 IST / 12:50 ICT
+
+### GOPATH confusion
+
+trying to install `lf` file manager got errors
+```
+2022-01-31 02:23:20 kvogel@kvogel-surface-ubuntu:~/go 
+❯ go version
+zsh: command not found: go
+❯ which go
+go not found
+
+2022-01-31 02:35:20 kvogel@kvogel-surface-ubuntu:~ 
+❯ ls /usr/local/go/bin 
+go*  gofmt*
+❯ ls go/bin 
+gopls*  hello*
+❯ vi ~/.profile
+```
+```diff
+ export PATH=$PATH:$HOME/go/bin/
++export PATH=$PATH:/usr/local/go/bin
+```
+??
+OK, reinstall via `asdf`
+```
+2022-01-31 03:43:31 kvogel@kvogel-surface-ubuntu:~/Downloads 
+❯ asdf plugin add golang
+❯ asdf install golang latest
+Platform 'linux' supported!
+/home/kvogel/.asdf/downloads/golang/1.17.6/archive.tar.gz: OK
+❯ which go
+/usr/local/go/bin/go
+❯ which -a -- go
+/home/kvogel/.asdf/shims/go
+/usr/local/go/bin/go
+❯ du -sh /usr/local/go 
+423M	/usr/local/go
+
+❯ sudo rm -rf /usr/local/go
+❯ sudo rm -rf ~/go
+❯ lf
+❯ go
+No version set for command go
+Consider adding one of the following versions in your config file at /home/kvogel/.tool-versions
+golang 1.17.6
+❯ asdf global golang latest
+❯ go
+Go is a tool for managing Go source code.
+...
+```
