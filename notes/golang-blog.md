@@ -84,7 +84,7 @@
 [Go gRPC Beginners Tutorial  TutorialEdge.net ](https://tutorialedge.net/golang/go-grpc-beginners-tutorial/)
 [gRPC](https://www.google.com/search?q=gRPC&biw=1366&bih=695)
 [Understanding gRPC. And the differences between REST vs…  by Arun Mathew Kurian  Better Programming  Medium ](https://medium.com/better-programming/understanding-grpc-60737b23e79e)
-  
+
 
 [why is go garbage collected](https://www.google.com/search?q=why+is+go+garbage+collected&ie=UTF-8)
 [Modern garbage collection. A look at the Go GC strategy  by Mike Hearn  Mike’s blog ](https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e)
@@ -105,7 +105,7 @@
 
 [What is the <- operator?](https://stackoverflow.com/questions/15926697/what-is-the-less-than-followed-by-dash-operator-in-go-language)
 >[Receive operator](http://golang.org/ref/spec#Receive_operator)
->It receives a value from a channel. 
+>It receives a value from a channel.
 >For an operand `ch` of channel type, the value of the receive operation `<-ch` is the value received from the channel `ch`.
 
 
@@ -166,4 +166,99 @@ type g struct {
 
 
 `go get -u github.com/boyter/scc`
->Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go 
+>Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go
+
+
+```
+2022-03-03 18:17:58 kvogel@kvogel-surface-ubuntu:~/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ go run main.go
+Hello, World!%
+```
+
+>The "go-outline" command is not available. Run "go install -v github.com/ramya-rao-a/go-outline@latest" to install.
+```
+Tools environment: GOPATH=/home/kvogel/.asdf/installs/golang/1.17.6/packages
+Installing 1 tool at /home/kvogel/.asdf/installs/golang/1.17.6/packages/bin in module mode.
+  go-outline
+
+Installing github.com/ramya-rao-a/go-outline@latest (/home/kvogel/.asdf/installs/golang/1.17.6/packages/bin/go-outline) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+```
+
+
+```
+2022-03-03 18:19:54 kvogel@kvogel-surface-ubuntu:~/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ go test
+go: cannot find main module, but found .git/config in /home/kvogel/projects/general/dev/learn/learn-golang
+        to create a module there, run:
+        cd ../../.. && go mod init
+```
+
+```
+2022-03-03 18:22:50 kvogel@kvogel-surface-ubuntu:~/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ go run main
+package main is not in GOROOT (/home/kvogel/.asdf/installs/golang/1.17.6/go/src/main)
+```
+
+[Tutorial: Create a Go module - The Go Programming Language ](https://go.dev/doc/tutorial/create-module)
+
+>Go code is grouped into packages, and packages are grouped into modules. Your module specifies dependencies needed to run your code, including the Go version and the set of other modules it requires.
+
+>Run the `go mod init` command, giving it your module path -- here, use `example.com/greetings`. If you publish a module, *this must be a path from which your module can be downloaded by Go tools*. That would be your code's repository.
+
+```
+2022-03-03 18:25:33 kvogel@kvogel-surface-ubuntu:~/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ go mod init
+go: cannot determine module path for source directory /home/kvogel/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world (outside GOPATH, module path must be specified)
+
+Example usage:
+        'go mod init example.com/m' to initialize a v0 or v1 module
+        'go mod init example.com/m/v2' to initialize a v2 module
+
+Run 'go help mod init' for more information.
+
+❯ go mod init kvogel.net/hello
+go: creating new go.mod: module kvogel.net/hello
+go: to add module requirements and sums:
+        go mod tidy
+```
+
+```
+2022-03-03 18:33:06 kvogel@kvogel-surface-ubuntu:~/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ go run hello
+package hello is not in GOROOT (/home/kvogel/.asdf/installs/golang/1.17.6/go/src/hello)
+```
+
+[GO111MODULE](https://www.google.com/search?qie=UTF-8)
+[Why is GO111MODULE everywhere, and everything about Go Modules (updated with Go 1.17) | maelvls dev blog ](https://maelvls.dev/go111module-everywhere/)
+>`go get` has been *deprecated* for installing binaries since Go 1.17 and will be become impossible in Go 1.18. If you are using Go 1.16 or above, you should use instead: `go install golang.org/x/tools/gopls@latest`
+
+>When Go was first introduced in 2009, it was not shipped with a package manager. Instead, go get would fetch all the sources by using their import paths and store them in $GOPATH/src. There was no versioning and the ‘master’ branch would represent a stable version of the package.
+>Go Modules (previously called vgo – versioned Go) were introduced with Go 1.11. Instead of using the GOPATH for storing a single git checkout of every package, Go Modules stores tagged versions with go.mod keeping track of each package’s version. Since then, the interaction between the ‘GOPATH behavior’ and the ‘Go Modules behavior’ has become one of the biggest gotchas of Go. *One environment variable is responsible for 95% of this pain*: `GO111MODULE`.
+
+```
+learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ go run hello.go
+package command-line-arguments is not a main package
+```
+
+["fmt" imported but not used](https://www.google.com/search?qie=UTF-8)
+[go - Goland can't auto import "fmt"?](https://stackoverflow.com/questions/70140842/goland-cant-auto-import-fmt)
+>There is Global `Println()` function and also `fmt.Println()` function
+
+[Could not import fmt.(or any other basic libs) VS Code Go Extension](https://stackoverflow.com/questions/65981553/could-not-import-fmt-or-any-other-basic-libs-vs-code-go-extension)
+[Using Go Modules - The Go Programming Language ](https://go.dev/blog/using-go-modules)
+[Noob: VSCode is deleting my import line : golang ](https://www.reddit.com/r/golang/comments/4vtoc4/noob_vscode_is_deleting_my_import_line/)
+>The idea behind goimports is, that you don't have to really worry about which imports you use anymore; just write the code and let it figure out the import lines for you
+>If you can get goimports set up then that should automatically add and remove them.
+
+[Imports Deleted Upon Saving Go File : vscode ](https://www.reddit.com/r/vscode/comments/j1440i/imports_deleted_upon_saving_go_file/)
+>I have discovered an issue using Visual Studio Code with Golang. When I enter "Ctrl + S" or even select 'Save' from my File options, my "math" import will be deleted.
+>VS Code with the Go extension automatically prunes all (new and already saved) unused imports.
+
+```
+2022-03-03 18:33:16 kvogel@kvogel-surface-ubuntu:~/projects/general/dev/learn/learn-golang/tutorials/fyne/hello_world ±(master) ✗
+❯ echo $GOPATH
+/home/kvogel/.asdf/installs/golang/1.17.6/packages
+```
