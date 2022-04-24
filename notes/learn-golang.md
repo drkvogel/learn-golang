@@ -2,8 +2,35 @@
 
 notes/gotour.md
 
+
+[Library - Diigo ](https://www.diigo.com/user/chrisjbird/?query=golang)
+
+[Learn Go Programming by Building 11 Projects ](https://www.freecodecamp.org/news/learn-go-by-building-11-projects/)
+
+
+[Hexagonal Architecture in Go](https://medium.com/hexagonal-architecture-in-go/hexagonal-architecture-in-go-94f4ed15392a)
+[Patterns in Go applications. Some patterns which are commonly used… | by Lam Tran | Medium ](https://medium.com/@tranngoclam/patterns-in-go-applications-42dcd10fd0e5)
+[Dependency Injection in Go. Dependency injection means giving an… | by Jay Patel | Medium ](https://medium.com/@jaybabu_/dependency-injection-in-go-d0826f62e572)
+[Context in Go. A Basic walk-through … | by Janteshital | Medium ](https://janteshital.medium.com/context-in-go-language-63cef994ed4b)
+[Structuring Go Codes (Our Way). Our first story in Medium — Stop… | by refactory | Medium ](https://refactory-id.medium.com/structuring-go-codes-our-way-b22388c19af6)
+[Building microservices in Go with Fiber - LogRocket Blog ](https://blog.logrocket.com/building-microservices-go-fiber/)
+[Golang Technical Interview @TCMLabs | by Florian Teissedre | tcmlabs ](https://blog.tcmlabs.fr/golang-technical-interview-tcmlabs-a70c02639381)
+
+
+
 [Go is More Object-Oriented Than Java | by Erik Engheim | Star Gazers | Medium ](https://medium.com/star-gazers/go-is-more-object-oriented-than-java-6d49e9015dec)
   O...K... doesn't talk about Go much, but Java, Smalltalk, Erlang, Elixir
+
+### Go Garbage Collector
+
+[go garbage collector](https://www.google.com/search?qie=UTF-8)
+[An overview of memory management in Go | by Scott Gangemi | SafetyCulture Engineering | Medium ](https://medium.com/safetycultureengineering/an-overview-of-memory-management-in-go-9a72ec7c76a8)
+[Getting to Go: The Journey of Go's Garbage Collector - The Go Programming Language ](https://go.dev/blog/ismmkeynote)
+[Tuning Go GC Parameters](https://www.youtube.com/watch?v=r_hT7Z2YE-8)
+[Garbage Collection In Go : Part I - Semantics ](https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html)
+[Optimizing the Go garbage collector and concurrency - Concertio ](https://concertio.com/blog/optimizing-the-go-garbage-collector-and-concurrency/)
+[Dumpster diving the Go garbage collector | Pixie Labs Blog ](https://blog.px.dev/go-garbage-collector/)
+[Go GC - LINE ENGINEERING ](https://engineering.linecorp.com/en/blog/go-gc/)
 
 
 [Go (Golang) with Async/Await. Go (Golang) with Async/Await | by Mertcan Arguç | Dec, 2021 | Dev Genius ](https://blog.devgenius.io/go-golang-with-async-await-a0c2e259a668)
@@ -20,11 +47,13 @@ notes/gotour.md
 [The Perfect React + Go Dev Environment | by Mike Mackintosh | Medium ](https://mikemackintosh.com/the-perfect-react-go-dev-environment-4df67dc90eb0)
 
 [Golang’s most important feature is invisible (continued . . .) and my thoughts about Rust | by Jack Strohm | Jan, 2022 | Medium ](https://medium.com/@hoyle.hoyle/golangs-most-important-feature-is-invisible-continued-and-my-thoughts-about-rust-d33e94e5c009)
+
 [Let’s Go Serverless — Structuring a Go Microservice using the Serverless Framework | by Tom Dickinson, PhD | Medium ](https://www.tomkdickinson.co.uk/lets-go-serverless-structuring-a-go-microservice-using-the-serverless-framework-fa17444934c4)
+
 [[Learn Intermediate Go] How does context work? | by Sang-gon Lee | Nerd For Tech | Medium ](https://medium.com/nerd-for-tech/learn-intermediate-go-how-does-context-work-1898704c649b)
 
-[Go Generics Are Coming: Now what? | by Blake Miner | iCompute Consulting | Medium ](https://medium.com/icompute-consulting/go-generics-are-coming-now-what-1748ee982fb)
-[Generics in Golang 1.18, no need to write max / min anymore (maybe) | by Jerome Wu | ITNEXT ](https://itnext.io/generics-in-golang-1-18-no-need-to-write-max-min-anymore-maybe-d79f3392ca38)
+notes/generics.md
+
 [3 Things Go Needs Right Now More Than Generics | by Ryan Collingham | Better Programming ](https://betterprogramming.pub/three-things-go-needs-right-now-more-than-generics-a6225d62f76b)
 
 [Should We Use Pointers In Go? Truth Is Complicated. | by Mert Simsek | Beyn Technology | Medium ](https://medium.com/beyn-technology/should-we-use-pointers-in-go-truth-is-complicated-75fccae92f27)
@@ -52,7 +81,7 @@ All tools successfully installed. You are ready to Go. :)
 [5 Golang Modules/Packages That Every Developer Should Know  by Bryan Dijkhuizen  Golangd  Medium ](https://medium.com/golangd/5-golang-modules-packages-that-every-developer-should-know-c945f40ea173)
 
 ```
-2022-01-31 03:41:41 kvogel@kvogel-surface-ubuntu:~/Downloads 
+2022-01-31 03:41:41 kvogel@kvogel-surface-ubuntu:~/Downloads
 ❯ asdf plugin list all | grep go
 argo                          https://github.com/sudermanjr/asdf-argo.git
 argocd                        https://github.com/beardix/asdf-argocd.git
@@ -97,7 +126,7 @@ don't have `/usr/local/opt/asdf/asdf.sh` bc asdf is running as an oh-my-zsh plug
  plugins=(
      git
      asdf
-     # zsh-z 
+     # zsh-z
      # zsh-syntax-highlighting
  )
  source $ZSH/oh-my-zsh.sh
