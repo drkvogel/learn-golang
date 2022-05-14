@@ -262,3 +262,42 @@ package command-line-arguments is not a main package
 ❯ echo $GOPATH
 /home/kvogel/.asdf/installs/golang/1.17.6/packages
 ```
+
+[Go Generics In 5 Minutes Or Less | Medium ](https://medium.com/@michael_epps/go-generics-in-5-minutes-or-less-6942ac7713b7)
+[Road to Go Pro — Special Edition: Generics | by Song X. | Mar, 2022 | Level Up Coding ](https://levelup.gitconnected.com/road-to-go-pro-special-edition-generics-88d6ac2b5b6c)
+[Go Diagnostics 101. Use delve, tracing, and pprof to… | by Stefanie Lai | Mar, 2022 | Medium ](https://laiyuanyuan-sg.medium.com/go-diagnostics-101-e96f1023c63d)
+
+[How Generics can change error handling in Go | by Melvin Biamont | Medium ](https://melvinbiamont.medium.com/how-generics-can-change-error-handling-in-go-34f47347925a)
+[Better error handling in Golang: Theory and practical tips](https://levelup.gitconnected.com/better-error-handling-in-golang-theory-and-practical-tips-758b90d3f6b4)
+[Work with Packages in Golang. Stay DRY with Go packages! | by Jonathan Seow | Medium ](https://jonathanseow.medium.com/working-with-packages-in-golang-5f247f49090f)
+
+[Why I like Go so much, with examples](https://medium.com/datasparq-technology/why-i-like-go-so-much-with-examples-8583e73895d3)
+
+
+[Golang’s most important feature is invisible (continued . . .) and my thoughts about Rust | by Jack Strohm | Jan, 2022 | Medium ](https://medium.com/@hoyle.hoyle/golangs-most-important-feature-is-invisible-continued-and-my-thoughts-about-rust-d33e94e5c009)
+
+[awesome go libraries - Google Search](https://www.google.com/search?q=awesome+go+libraries)
+[avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software ](https://github.com/avelino/awesome-go)
+[A curated list of awesome Go frameworks, libraries and software - Awesome Go / Golang ](https://awesome-go.com/)
+[Awesome Go GitHub](https://www.google.com/search?qsadpr=1.41)
+[awesome-go command - github.com/f0rmiga/awesome-go - pkg.go.dev ](https://pkg.go.dev/github.com/f0rmiga/awesome-go)
+
+/home/kvogel/projects/calculator/go.mod
+[Fyne](/dev/apps/fyne/fyne.md)? Fyne is a framework, not an app! Although apps are made with Fyne...
+dev/learn/learn-golang/notes/go-gui.md
+dev/learn/learn-golang/notes/fyne.md
+dev/apps/fyne/fyne.md
+/home/kvogel/projects/calculator/go.mod
+
+[avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software ](https://github.com/avelino/awesome-go#web-frameworks)
+[Buffalo – Rapid Web Development in Go ](https://gobuffalo.io/en/)
+>Fiber (Golang) is way ahead of the game in terms of speed and raw performance. Express (NodeJS) is ~1.5x faster than FastAPI (Python) and, these frameworks are ~7.5 and ~11.35 times slower than Fiber (as per multi-core async performance). However, this doesn't mean that you no longer use Python or NodeJS based frameworks. Factors like existing software stack, dev skills & experience in the team will play a significant role in making such decisions. Remember, good Go devs are hard to find compared to Python & JavaScript devs (at the time of writing this article) simply because these languages and their ecosystem have been here for longer.
+>If you are starting a new project and you are willing to give GoLang a try. Fiber is a great place to start and, there are many frameworks to choose from.
+
+[Using context in Go microservices | by Johan Sim Jian An | NE Digital | Medium ](https://medium.com/ne-digital/using-context-in-go-microservices-5b97f66414ec)
+[Dependency Injection in Go. Dependency injection means giving an… | by Jay Patel | Medium ](https://medium.com/@jaybabu_/dependency-injection-in-go-d0826f62e572)
+
+do hangman in Go
+
+[Go 1.18 Comes With Many Amazing Changes](https://towardsdatascience.com/go-1-18-comes-with-many-amazing-changes-d33ac0afd6ee)
+[A project on PHP? Let’s re-write it in Go!](https://medium.com/geekculture/a-project-on-php-lets-re-write-it-in-go-72f7b8891501)
