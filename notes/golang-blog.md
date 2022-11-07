@@ -262,3 +262,93 @@ package command-line-arguments is not a main package
 ❯ echo $GOPATH
 /home/kvogel/.asdf/installs/golang/1.17.6/packages
 ```
+
+[Go Generics In 5 Minutes Or Less | Medium ](https://medium.com/@michael_epps/go-generics-in-5-minutes-or-less-6942ac7713b7)
+[Road to Go Pro — Special Edition: Generics | by Song X. | Mar, 2022 | Level Up Coding ](https://levelup.gitconnected.com/road-to-go-pro-special-edition-generics-88d6ac2b5b6c)
+[Go Diagnostics 101. Use delve, tracing, and pprof to… | by Stefanie Lai | Mar, 2022 | Medium ](https://laiyuanyuan-sg.medium.com/go-diagnostics-101-e96f1023c63d)
+
+[How Generics can change error handling in Go | by Melvin Biamont | Medium ](https://melvinbiamont.medium.com/how-generics-can-change-error-handling-in-go-34f47347925a)
+[Better error handling in Golang: Theory and practical tips](https://levelup.gitconnected.com/better-error-handling-in-golang-theory-and-practical-tips-758b90d3f6b4)
+[Work with Packages in Golang. Stay DRY with Go packages! | by Jonathan Seow | Medium ](https://jonathanseow.medium.com/working-with-packages-in-golang-5f247f49090f)
+
+[Why I like Go so much, with examples](https://medium.com/datasparq-technology/why-i-like-go-so-much-with-examples-8583e73895d3)
+
+
+[Golang’s most important feature is invisible (continued . . .) and my thoughts about Rust | by Jack Strohm | Jan, 2022 | Medium ](https://medium.com/@hoyle.hoyle/golangs-most-important-feature-is-invisible-continued-and-my-thoughts-about-rust-d33e94e5c009)
+
+[awesome go libraries - Google Search](https://www.google.com/search?q=awesome+go+libraries)
+[avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software ](https://github.com/avelino/awesome-go)
+[A curated list of awesome Go frameworks, libraries and software - Awesome Go / Golang ](https://awesome-go.com/)
+[Awesome Go GitHub](https://www.google.com/search?qsadpr=1.41)
+[awesome-go command - github.com/f0rmiga/awesome-go - pkg.go.dev ](https://pkg.go.dev/github.com/f0rmiga/awesome-go)
+
+/home/kvogel/projects/calculator/go.mod
+[Fyne](/dev/apps/fyne/fyne.md)? Fyne is a framework, not an app! Although apps are made with Fyne...
+dev/learn/learn-golang/notes/go-gui.md
+dev/learn/learn-golang/notes/fyne.md
+dev/apps/fyne/fyne.md
+/home/kvogel/projects/calculator/go.mod
+
+[avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software ](https://github.com/avelino/awesome-go#web-frameworks)
+[Buffalo – Rapid Web Development in Go ](https://gobuffalo.io/en/)
+>Fiber (Golang) is way ahead of the game in terms of speed and raw performance. Express (NodeJS) is ~1.5x faster than FastAPI (Python) and, these frameworks are ~7.5 and ~11.35 times slower than Fiber (as per multi-core async performance). However, this doesn't mean that you no longer use Python or NodeJS based frameworks. Factors like existing software stack, dev skills & experience in the team will play a significant role in making such decisions. Remember, good Go devs are hard to find compared to Python & JavaScript devs (at the time of writing this article) simply because these languages and their ecosystem have been here for longer.
+>If you are starting a new project and you are willing to give GoLang a try. Fiber is a great place to start and, there are many frameworks to choose from.
+
+[Using context in Go microservices | by Johan Sim Jian An | NE Digital | Medium ](https://medium.com/ne-digital/using-context-in-go-microservices-5b97f66414ec)
+[Dependency Injection in Go. Dependency injection means giving an… | by Jay Patel | Medium ](https://medium.com/@jaybabu_/dependency-injection-in-go-d0826f62e572)
+
+do hangman in Go
+
+[Go 1.18 Comes With Many Amazing Changes](https://towardsdatascience.com/go-1-18-comes-with-many-amazing-changes-d33ac0afd6ee)
+[A project on PHP? Let’s re-write it in Go!](https://medium.com/geekculture/a-project-on-php-lets-re-write-it-in-go-72f7b8891501)
+
+
+```
+2022-09-06 01:37:24 kvogel@kvogel-surface-ubuntu:~/projects/general ±(master) ✗
+❯ which go
+/home/kvogel/.asdf/shims/go
+```
+dev/apps/asdf.md
+
+fork fyne? so that it has better ... component stretching anchors?
+
+[Advanced Golang: Channels, Context and Interfaces Explained](https://www.youtube.com/watch?v=VkGQFFl66X4)
+[Golang Tutorial 3 - Golang pointers explained, once and for all](https://www.youtube.com/watch?v=sTFJtxJXkaY)
+[Learn Go: The complete course ](https://www.karanpratapsingh.com/blog/learn-go-the-complete-course)
+
+[Learn Go Programming by Building 11 Projects ](https://www.freecodecamp.org/news/learn-go-by-building-11-projects/)
+[Learn Go Programming by Building 11 Projects – Full Course](https://www.youtube.com/watch?v=jFfo23yIWac)
+
+[No Good Go GUI. Created Saturday 14 May 2022 | by 3-Toed-Sloth | May, 2022 | Medium ](https://medium.com/@balle.johannes/no-good-go-gui-9f54813e9bf)
+[Stacks in Go. Welcome back to Introduction to Data… | by Jacob Kim | May, 2022 | Dev Genius ](https://blog.devgenius.io/stacks-in-go-f57f4cb87b5f)
+[How I set up my Go development environment | by Soroush Mirzaei | May, 2022 | Medium ](https://medium.com/@Soroush/how-i-set-up-my-go-development-environment-337ccf3edb42)
+
+[Library - Diigo ](https://www.diigo.com/user/chrisjbird/?query=golang)
+[Advanced Golang: Channels, Context and Interfaces Explained](https://www.youtube.com/watch?v=VkGQFFl66X4)
+[Golang Tutorial 3 - Golang pointers explained, once and for all](https://www.youtube.com/watch?v=sTFJtxJXkaY)
+[Learn Go: The complete course ](https://www.karanpratapsingh.com/blog/learn-go-the-complete-course)
+[Learn Go: The complete course ](https://www.karanpratapsingh.com/blog/learn-go-the-complete-course)
+[Hexagonal Architecture in Go. This year, I have been learning and… | by Jemesson Lima | Hexagonal Architecture in Go | Medium ](https://medium.com/hexagonal-architecture-in-go/hexagonal-architecture-in-go-94f4ed15392a)
+[medium.litbelb.com ](https://medium.litbelb.com/go-is-the-best-language-28378bc20310)
+[(33) Is Go a more powerful solution than Node.js for Back-End Web development? ](https://www.quora.com/Is-Go-a-more-powerful-solution-than-Node-js-for-Back-End-Web-development)
+
+
+
+[Is it hard to be a good programmer? All it takes is these 10 habits | by Sevenall Bin | Apr, 2022 | Medium ](https://medium.com/@sevenall/is-it-hard-to-be-a-good-programmer-all-it-takes-is-these-10-habits-67762826f975)
+[No Good Go GUI. Created Saturday 14 May 2022 | by 3-Toed-Sloth | May, 2022 | Medium ](https://medium.com/@balle.johannes/no-good-go-gui-9f54813e9bf)
+[Stacks in Go. Welcome back to Introduction to Data… | by Jacob Kim | May, 2022 | Dev Genius ](https://blog.devgenius.io/stacks-in-go-f57f4cb87b5f)
+[How I set up my Go development environment | by Soroush Mirzaei | May, 2022 | Medium ](https://medium.com/@Soroush/how-i-set-up-my-go-development-environment-337ccf3edb42)
+[Fyne ](https://fyne.io/)
+[Newest additions ](https://apps.fyne.io/)
+[Fyne ](https://fyne.io/fynedesk/)
+[Fyne GUI Tutorial: 1 Hello World](https://www.youtube.com/watch?vlist=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk)
+[To Unmarshal() or To Decode()? JSON Processing in Go Explained | by Jacob Kim | Dev Genius ](https://blog.devgenius.io/to-unmarshal-or-to-decode-json-processing-in-go-explained-e92fab5b648f)
+[Why is goroutine being called a “lightweight” thread? | by Jessie Kuo | Medium ](https://medium.com/@jessie_kuo/why-is-goroutine-being-called-a-lightweight-thread-46d70d198ad6)
+[Scheduling Jobs in Golang. There are enormous use-cases with… | by Pravand Katyare | Medium ](https://medium.com/@katyare.pravand/scheduling-jobs-in-golang-c6173a6959a5)
+[5 Golang Modules You NEED to Know | by Teravision | Teravision Technologies ](https://medium.com/teravision-technologies/5-golang-modules-you-must-know-teravision-technologies-a4a56db346e7)
+
+[Use This Instead Of Golang. Welcome back! Golang is an awesome… | by Manpreet Singh | May, 2022 | Medium ](https://preettheman.medium.com/use-this-instead-of-golang-b2db4ac0e6d4)
+[4 Awesome Go (Golang) Tricks. Welcome back! Golang is an awesome… | by Manpreet Singh | May, 2022 | Medium ](https://preettheman.medium.com/4-awesome-go-golang-tricks-782debf8693c)
+[If You Are Learning Golang, Remember These 10 Commands | by Pavle Djuric | May, 2022 | Medium ](https://pavledjuric.medium.com/if-you-are-learning-golang-remember-these-10-commands-44e3bc194b16)
+[gnolang/gno: Gno language ](https://github.com/gnolang/gno)
+[https://gno.land/r/boards:gnolang/4 ](https://gno.land/r/boards:gnolang/4)

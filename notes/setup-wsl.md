@@ -21,7 +21,6 @@ export PATH=$PATH:$GOPATH/bin;
 ❯ vi ~/.zshrc && source $_
 This is /home/kvogel/.zshrc
 EOF (ctrl+d) is disabled
-ctrl+r is ignored
 21/02/2 19:30:27 kvogel-elitebook:~/go
 ❯ echo $GOPATH/
 /home/kvogel/go/

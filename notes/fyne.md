@@ -75,7 +75,7 @@ modules/  preemption.go  test.go
 
 [Fyne ](https://fyne.io/)
 
-[(2) Fyne (@Fyne_io) / Twitter ](https://twitter.com/andydotxyz/status/1481389269860061187/photo/1)
+[Fyne (@Fyne_io) / Twitter ](https://twitter.com/andydotxyz/status/1481389269860061187/photo/1)
 [https://twitter.com/i/events/1483255084750282753 ](https://twitter.com/i/events/1483255084750282753)
 [Announcing Go GUI Developer Survey | Fyne Labs ](https://fynelabs.com/2022/03/02/announcing-go-gui-developer-survey/)
 [https://twitter.com/andydotxyz ](https://twitter.com/andydotxyz)
