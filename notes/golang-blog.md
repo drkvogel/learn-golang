@@ -352,3 +352,52 @@ fork fyne? so that it has better ... component stretching anchors?
 [If You Are Learning Golang, Remember These 10 Commands | by Pavle Djuric | May, 2022 | Medium ](https://pavledjuric.medium.com/if-you-are-learning-golang-remember-these-10-commands-44e3bc194b16)
 [gnolang/gno: Gno language ](https://github.com/gnolang/gno)
 [https://gno.land/r/boards:gnolang/4 ](https://gno.land/r/boards:gnolang/4)
+
+
+```
+22/12/11 14:27:20 kvogel@kvogel-macbook-2021:~/projects/lf ±(master)
+❯ env CGO_ENABLED=0 GO111MODULE=on go get -u -ldflags="-s -w" github.com/gokcehan/lf
+❯ env CGO_ENABLED=0 go install -ldflags="-s -w" github.com/gokcehan/lf@latest
+go: downloading github.com/gokcehan/lf v0.0.0-20221128161615-aa78b26e4457
+❯ lf
+zsh: command not found: lf
+❯ go run
+go: no go files listed
+```
+
+
+[Can I get ANY debug output from the go install command? - Technical Discussion - Go Forum ](https://forum.golangbridge.org/t/can-i-get-any-debug-output-from-the-go-install-command/21909)
+[go command - cmd/go - Go Packages ](https://pkg.go.dev/cmd/go)
+```
+$ go install -v -n -a
+$ go install -v -x -a
+```
+
+```
+22/12/11 14:51:55 kvogel@kvogel-macbook-2021:~/projects/lf ±(master) ✗
+❯ go install -v -n -a
+[loads of output...]
+/usr/local/go/pkg/tool/darwin_arm64/buildid -w $WORK/b001/exe/a.out # internal
+mkdir -p /Users/kvogel/go/bin/
+mv $WORK/b001/exe/a.out /Users/kvogel/go/bin/lf
+
+❯ ls ~/go/bin
+lf*                  migrate.linux-amd64*
+```
+ah, so `go install` puts things in `~/go/bin`, which is not currently in `PATH`
+```
+22/12/11 15:42:21 kvogel@kvogel-macbook-2021:~/projects/lf ±(master) ✗
+❯ vi ~/.zshrc
+```
+```bash
+export PATH="$PATH:$HOME/go/bin"
+```
+```
+22/12/11 15:43:19 kvogel@kvogel-macbook-2021:~/projects/lf ±(master) ✗
+❯ . ~/.zshrc
+22/12/11 15:43:23 kvogel@kvogel-macbook-2021:~/projects/lf ±(master) ✗
+❯ lf
+```
+oorah
+
+
