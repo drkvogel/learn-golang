@@ -401,3 +401,10 @@ export PATH="$PATH:$HOME/go/bin"
 oorah
 
 
+
+[Do not use go mod init anymore. Introducing a new project starter tool…  by Deniz GÜRSOY  Nov, 2022  Medium ](https://dgursoy.medium.com/do-not-use-go-mod-init-anymore-5ff8b372cf81)
+[Write Go like a senior engineer. What I wish I knew when I started…  by Jacob Bennett  Dec, 2022  Level Up Coding ](https://levelup.gitconnected.com/write-go-like-a-senior-engineer-eee7f03a1883)
+[17 Golang Packages You Should Know  by Yash Prakash  This Code  Nov, 2022  Medium ](https://medium.com/this-code/17-golang-packages-you-should-know-c7f156b1270e)
+[Clean Architecture with Go  by kotayagi  Nov, 2022  Medium ](https://medium.com/@mdryzk64smsh/clean-architecture-with-go-25fb42a5a2c5)
+
+

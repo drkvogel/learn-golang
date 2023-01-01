@@ -11,3 +11,8 @@
 My number is 48
 ```
 
+
+### Go Web Development Succinctly
+
+[Introduction - Go Web Development Succinctly Ebook  Syncfusion ](https://www.syncfusion.com/succinctly-free-ebooks/go-web-development/introduction)
+
