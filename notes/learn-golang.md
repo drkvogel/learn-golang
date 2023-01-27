@@ -7,6 +7,7 @@ notes/gotour.md
 
 [Learn Go Programming by Building 11 Projects ](https://www.freecodecamp.org/news/learn-go-by-building-11-projects/)
 
+Golang Blue (e.g. for Peacock): `#00aed8`
 
 [Hexagonal Architecture in Go](https://medium.com/hexagonal-architecture-in-go/hexagonal-architecture-in-go-94f4ed15392a)
 [Patterns in Go applications. Some patterns which are commonly used… | by Lam Tran | Medium ](https://medium.com/@tranngoclam/patterns-in-go-applications-42dcd10fd0e5)

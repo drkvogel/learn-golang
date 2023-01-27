@@ -401,10 +401,65 @@ export PATH="$PATH:$HOME/go/bin"
 oorah
 
 
-
 [Do not use go mod init anymore. Introducing a new project starter tool…  by Deniz GÜRSOY  Nov, 2022  Medium ](https://dgursoy.medium.com/do-not-use-go-mod-init-anymore-5ff8b372cf81)
 [Write Go like a senior engineer. What I wish I knew when I started…  by Jacob Bennett  Dec, 2022  Level Up Coding ](https://levelup.gitconnected.com/write-go-like-a-senior-engineer-eee7f03a1883)
 [17 Golang Packages You Should Know  by Yash Prakash  This Code  Nov, 2022  Medium ](https://medium.com/this-code/17-golang-packages-you-should-know-c7f156b1270e)
 [Clean Architecture with Go  by kotayagi  Nov, 2022  Medium ](https://medium.com/@mdryzk64smsh/clean-architecture-with-go-25fb42a5a2c5)
 
+### Comma ok, comma err? "comma ok" idiom
+
+[golang Comma ok, comma err](https://www.google.com/search?q=golang+Comma+ok%2C+comma+err&ie=UTF-8)
+[Go comma ok idiom - How & When to Use?  GoLinuxCloud ](https://www.golinuxcloud.com/go-comma-ok-idiom/)
+[GoComma OK Idiom  Toshimaru’s Blog ](https://blog.toshima.ru/2019/07/21/go-comma-ok-idiom.html)
+
+```go
+if seconds, ok := timeZone[tz]; ok {
+    return seconds
+}
+```
+>This means that if the key(tz) is found in timeZone map, it returns seconds with `true`(`ok`). This idiom is handy when you’d like to configure fallback value:
+```go
+if seconds, ok := timeZone[tz]; ok {
+    return seconds
+}
+log.Println("unknown time zone:", tz)
+return fallbackValue
+```
+
+[About the "comma ok" idiom : golang ](https://www.reddit.com/r/golang/comments/35d0b2/about_the_comma_ok_idiom/)
+[Effective Go - The Go Programming Language ](https://go.dev/doc/effective_go#maps)
+
+
+### The blank identifier e.g. `import _ "lib/math"`
+
+[go - What does an underscore in front of an import statement mean?](https://stackoverflow.com/questions/21220077/what-does-an-underscore-in-front-of-an-import-statement-mean)
+>It's for importing a package solely for its side-effects. From the Go Specification:
+>>To import a package solely for its side-effects (initialization), use the blank identifier as explicit package name:
+```go
+import _ "lib/math"
+```
+[The blank identifier - Effective Go - The Go Programming Language ](https://go.dev/doc/effective_go#blank)
+
+>Import for side effect
+>An unused import like fmt or io in the previous example should eventually be used or removed: blank assignments identify code as a work in progress. But sometimes it is useful to import a package only for its side effects, without any explicit use. For example, during its init function, the net/http/pprof package registers HTTP handlers that provide debugging information. It has an exported API, but most clients need only the handler registration and access the data through a web page. To import the package only for its side effects, rename the package to the blank identifier:
+```go
+import _ "net/http/pprof"
+```
+>Unused imports and variables
+>It is an error to import a package or to declare a variable without using it. Unused imports bloat the program and slow compilation, while a variable that is initialized but not used is at least a wasted computation and perhaps indicative of a larger bug. When a program is under active development, however, unused imports and variables often arise and it can be annoying to delete them just to have the compilation proceed, only to have them be needed again later. The blank identifier provides a workaround.
+
+
+### GO111MODULE
+
+[GO111MODULE](https://www.google.com/search?q=GO111MODULE&ie=UTF-8)
+[Why is GO111MODULE everywhere, and everything about Go Modules (updated with Go 1.17)  maelvls dev blog ](https://maelvls.dev/go111module-everywhere/)
+[New module changes in Go 1.16 - The Go Programming Language ](https://go.dev/blog/go116-module-changes)
+[GO modules: go mod and go111module definitive guide  by Course Probe  Medium ](https://medium.com/@courseprobeunlimited/go-modules-go-mod-and-go111module-definitive-guide-5249691e1c50)
+
+
+### Runes
+
+[golang rune](https://www.google.com/search?q=golang+rune&ie=UTF-8)
+[go - What is a rune?](https://stackoverflow.com/questions/19310700/what-is-a-rune)
+[What is rune in GoLang? - GoLang Docs ](https://golangdocs.com/rune-in-golang)
 
