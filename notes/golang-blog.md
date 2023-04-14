@@ -463,3 +463,13 @@ import _ "net/http/pprof"
 [go - What is a rune?](https://stackoverflow.com/questions/19310700/what-is-a-rune)
 [What is rune in GoLang? - GoLang Docs ](https://golangdocs.com/rune-in-golang)
 
+
+### gopls install
+
+>The "gopls" command is not available. Run "go install -v golang.org/x/tools/gopls@latest" to install.
+>Tools environment: GOPATH=/Users/kvogel/go
+>Installing 1 tool at /Users/kvogel/go/bin in module mode.
+>  gopls
+>Installing golang.org/x/tools/gopls@latest (/Users/kvogel/go/bin/gopls) SUCCEEDED
+>All tools successfully installed. You are ready to Go. :)
+
